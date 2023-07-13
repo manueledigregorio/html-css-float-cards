@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+
+h1{
+    color: #E53170;
+    text-align: center;
+    padding: 30px;
+}
+p{
+    margin-top: 10px;
+    text-align: center;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.container{
+ width: 70%;
+ max-width: 1400px;
+ margin: 0 auto;
+}
+
+.float-left{
+    float: left;
+}
+.box{
+    width: 300px;
+    height: 100px;
+    margin-right: 20px;
+    background-color: black;
+    
+}
