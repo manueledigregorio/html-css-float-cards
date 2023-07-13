@@ -13,6 +13,13 @@ h1{
     text-align: center;
     padding: 30px;
 }
+
+h3{
+display: inline-block;
+color: white;
+vertical-align: top;
+padding-left: 15px;
+}
 p{
     margin-top: 10px;
     text-align: center;
@@ -22,9 +29,14 @@ img{
     width: 100px;
     height: 100px;
     object-fit: cover;
+    
+}
+
+span{
+    color: white;
 }
 .container{
- width: 70%;
+ width: 65%;
  max-width: 1400px;
  margin: 0 auto;
 }
@@ -33,9 +45,13 @@ img{
     float: left;
 }
 .box{
-    width: 300px;
+    width: 350px;
     height: 100px;
     margin-right: 20px;
     background-color: black;
-    
+   
+}
+
+.contenitore{
+    margin-top: 30px;
 }
