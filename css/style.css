@@ -12,6 +12,7 @@ h1 {
   color: #e53170;
   text-align: center;
   padding: 30px;
+  font-size: 2.5rem;
 }
 
 h3 {
@@ -34,23 +35,23 @@ img {
   margin-right: 15px;
 }
 a {
-    display: block;
-    color: #1D90FF;
-    text-decoration: none;
-    margin-top: 8px;
-  }
-  
-  span {
-    color: white;
-}  
+  display: block;
+  color: #1d90ff;
+  text-decoration: none;
+  margin-top: 8px;
+}
+
+span {
+  color: white;
+}
 .float-left {
   float: left;
 }
-    
-.clearfix{
-    content:"";
-    display: table;
-    clear: both;
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /*  Contenitore delle box*/
@@ -64,7 +65,6 @@ a {
 .contenitore {
   margin-top: 30px;
   width: 100%;
-  
 }
 /* abbiamo fatto il 100% del width del CONTENITORE / 3 che sarebbero i box in fila 
   viene 33% da qui dobbiamo levare -1% per dare spazio al MARGIN                  */
@@ -74,9 +74,6 @@ a {
   background-color: black;
   margin-top: 50px;
   width: 31%;
-  margin: 1%;
-  
+  margin: 10px;
+  min-width: 355px;
 }
-
-
-
