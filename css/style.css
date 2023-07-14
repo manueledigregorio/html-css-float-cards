@@ -48,7 +48,7 @@ span {
   float: left;
 }
 
-.clearfix {
+.clearfix:after {
   content: "";
   display: table;
   clear: both;
@@ -56,24 +56,19 @@ span {
 
 /*  Contenitore delle box*/
 .container {
-  width: 68%;
+  width: 90%;
   max-width: 1400px;
   margin: 0 auto;
 }
 /* abbiamo preso il 100%del nostro .Container */
-
-.contenitore {
-  margin-top: 30px;
-  width: 100%;
-}
 /* abbiamo fatto il 100% del width del CONTENITORE / 3 che sarebbero i box in fila 
   viene 33% da qui dobbiamo levare -1% per dare spazio al MARGIN                  */
 
 .box {
-  height: 100px;
   background-color: black;
-  margin-top: 50px;
-  width: 31%;
-  margin: 10px;
-  min-width: 355px;
+  width: calc(100% / 3 - 30px);
+  margin: 40px 15px 30px 15px ;
+  min-width: 350px;
+  
+  
 }
